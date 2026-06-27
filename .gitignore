@@ -1,0 +1,32 @@
+# --- Python / Django ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+backend/media/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Environment files ---
+.env
+*.local
+
+# --- Node / frontend ---
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
